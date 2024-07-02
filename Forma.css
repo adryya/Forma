@@ -1,0 +1,93 @@
+/* Resetare stiluri */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stilizare generală */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #52b9b6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #e0cbcbae;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: block;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none; /* elimină stilurile native ale browserului */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10.707 12.293a1 1 0 0 0-1.414 0l-8 8a1 1 0 0 0 1.414 1.414L10 14.414l7.293 7.293a1 1 0 0 0 1.414-1.414l-8-8z'/%3E%3C/svg%3E"), linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right 10px top 50%, 0 0;
+  background-size: 20px auto, 100%;
+}
+select::-ms-expand {
+  display: none; /* Ascunde săgeata de expansiune în IE10 și IE11 */
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Stilizare pentru elemente specifice formularului */
+#containerulCuDouaSemiContainere {
+  display: flex;
+  justify-content: space-between;
+}
+
+.semiContainer {
+  width: 48%;
+}
+
+#buttonDiv {
+  text-align: center;
+}

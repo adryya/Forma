@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Forma.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
+    <title>Contact Us</title>
+</head>
+<body>
+    <main>
+        <h1>Contact US</h1>
+        <form>
+            <div class="container">
+                <section id="entireForm">
+                    <div id="containerulCuDouaSemiContainere">
+                        <div class="semiContainer">
+                            <div id="numele">
+                                <label for="name">Numele</label>
+                                <input name="name" id="name" placeholder="Numele..." type="text"/>
+                            </div>
+                            <div id="email">
+                                <label for="email">Email</label>
+                                <input name="email" id="email" placeholder="Email" type="text"/>
+                            </div>
+                        </div>
+                        <div class="semiContainer">
+                            <div id="prenumele">
+                                <label for="surname">Prenumele</label>
+                                <input name="surname" id="surname" placeholder="Prenumele..." type="text"/>
+                            </div>
+                            <div id="number">
+                                <label for="phone">Nr.de telefon</label>
+                                <input name="phone" id="phone" placeholder="Nr.de telefon.." type="text"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">
+                                <span class="flag-icon flag-icon-au"></span> Australia
+                            </option>
+                            <option value="canada">
+                                <span class="flag-icon flag-icon-ca"></span> Canada
+                            </option>
+                            <option value="usa">
+                                <span class="flag-icon flag-icon-us"></span> USA
+                            </option>
+                        </select>
+
+                    </div>
+                    <div>
+                        <label for="address">Adresa</label>
+                        <input id="address" name="address" placeholder="Adresa..." type="text">
+                    </div>
+                    <div>
+                        <label for="subject">Subject</label>
+                        <input id="subject" name="subject" placeholder="Subject..." type="text">
+                    </div>
+                    <div class="inputInfo" id="buttonDiv">
+                        <input type="submit" value="Submit"/>
+                    </div>
+                </section>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
